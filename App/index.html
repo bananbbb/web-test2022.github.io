@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Banana Website</title>
+	<link rel="stylesheet" href="CSS/main.css">	
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab:wght@200;700&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="scripts/js-script.js"></script>
+</head>
+<body>
+	<div class="Main_Headers">
+        <h1>Бананы</h1>
+        <h2>Что же такое <font color="yellow">бананы?</font></h2>
+    </div>
+        <hr/>
+    <div>
+    	<nav>    	<table class="menu">
+    		<tr>
+    			<td><a href="index.html"><button>Главная</button></td></a>
+    			<td><a href="history.html"><button>История бананов</button></td></a>
+    			<td><a href="sorta.html"><button>Сорта бананов</button></td></a>
+    			<td><a href="about_me.html"><button onclick="buttonClick()">О создателе</button></td></a>
+    		</tr>
+    	</table>
+        </nav>
+    </div>
+    <div class="content">
+        <h3 class="t3" onClick="changeDisplay(this)">Кратко о <font color="yellow">бананах</font></h3>
+        <button >Открыть список</button>
+        <div style = "display: none;" id="1">
+	        <ul>
+	        <li>С ботанической точки зрения банан является <b>ягодой, многосеменной и толстокожей.</b></li>
+	        <li>У культурных форм часто <b>отсутствуют семена,</b> ненужные при вегетативном размножении. </li>
+	        <li>Плоды имеют длину <b>6—30 см</b> и <b>диаметр 2—5 см.</b> Соплодия могут состоять из <b>300 плодов</b> и иметь массу до <b>50—60 кг</b></li>
+	        <li>Бананы бывают не только <b>желтыми, но и красными,</b> у красных более нежная мякоть.</li>
+	</ul>
+
+
+
+</div>
+	<img src="img/banan1_h3.jpg" alt="">
+    <div>
+	    <h3>История бананов</h3>
+	        <p class="t1" onclick="superClick(this)">Банан — одно из самых <b>древних культивируемых растений.</b> </p>
+	        <p class="t2">Его родиной считаются острова <b>Малайского архипелага,</b> где, как полагают учёные, древние жители выращивали их и  употребляли в пищу как дополнение к рыбной диете.</p>
+	        <p>Первым из современных учёных, установившим географическое происхождение бананов, стал один из основоположников научной селекции <b>академик Н. И. Вавилов,</b> который в 1920—1930-х годах исследовал различные регионы мира и описал результаты в труде «Центры происхождения культурных растений»</p>
+    </div>
+
+    <div>
+	    <h3>Сорта бананов</h3>
+	        <p> Всего известно около <b>500 культивируемых сортов бананов</b>, однако часть из них мало известна либо более не культивируется по причине поражения болезнями. <b>Самая большая в мире коллекция бананов, включающая в себя более 470 сортов и около 100 видов</b>, находится в муниципалитете <b>Ла-Лима в Гондурасе.</b></p>
+
+	<table class:"test-table" border="1">
+		<thead>
+			<tr>
+			    <th>Одни из самых популярных сортов:</th>
+		    </tr>
+		</thead>
+		<tbody>
+			<tr>
+                <td>Карликовый Кавендиш (Dwarf Cavendish);</td>
+            </tr>
+            <tr>
+                <td>Гигантский Кавендиш (Giant Cavendish);</td>
+            </tr>
+            <tr>
+            	<td>Робуста (Robusta);</td>
+            </tr>
+			<tr>
+				<td>Лакатан (Lacatane);</td>
+			</tr>
+			<tr>
+				<td>Хайгейт (Highdate);</td>
+			</tr>
+			<tr>
+				<td>Американи (Americani);</td>
+			</tr>
+			<tr>
+				<td>Арвис (Arvis).</td>
+			</tr>
+			<tr>
+				<td>Гро-Мишель (Gros Mishel);</td>
+			</tr>
+		</tbody>
+</table>
+</div>
+
+<div class="footer">
+	<hr/>
+		<footer>Website by banan_b_ AKA Александра Перцева AKA Любителя бананов / 2022</footer>
+</div>
+</body>
+</html>
